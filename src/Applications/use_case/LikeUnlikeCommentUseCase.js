@@ -17,7 +17,7 @@ class LikeUnlikeCommentUseCase {
       return await this._commentLikeRepository.unlikeComment(addCommentLike.userId, addCommentLike.commentId);
     }
 
-    // return await this._commentLikeRepository.likeComment(addCommentLike);
+    return await this._commentLikeRepository.likeComment(addCommentLike);
   }
 }
 
