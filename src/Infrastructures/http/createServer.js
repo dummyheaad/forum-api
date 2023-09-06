@@ -66,7 +66,7 @@ const createServer = async (container) => {
     },
   ]);
 
-  // add route for path /
+  // add route for endpoint GET / and display welcome message
   server.route({
     method: 'GET',
     path: '/',
